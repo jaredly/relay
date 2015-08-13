@@ -17,6 +17,7 @@ graphQLServer.listen(GRAPHQL_PORT, () => console.log(
 
 // Serve the Relay app
 var compiler = webpack({
+  devtool: 'cheap-module-eval-source-map',
   entry: path.resolve(__dirname, 'js', 'app.js'),
   eslint: {
     configFile: '.eslintrc'

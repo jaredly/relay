@@ -1,0 +1,1 @@
+/Users/jaredly/clone/react-devtools/shells/plain/build/container.js

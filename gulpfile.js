@@ -59,6 +59,7 @@ var babelOpts = {
 
 var buildDist = function(opts) {
   var webpackOpts = {
+    devtool: 'cheap-module-eval-source-map',
     debug: opts.debug,
     externals: {
       react: 'React'
